@@ -20,6 +20,11 @@ class UsersResource extends AbstractResourceListener
      */
     public function create($data)
     {
+        /** @var UsersService $serviceUsers */
+        $serviceUsers = $this->getServiceLocator()->get('service.user');
+        $newUser      = $serviceUsers->createUser((array)$data);
+
+        return $newUser;
     }
 
     /**

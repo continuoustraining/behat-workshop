@@ -5,6 +5,8 @@
  */
 class FeatureContext implements \Behat\Behat\Context\Context
 {
+    protected $zf2MvcApplication;
+
     /**
      * Initializes context.
      *

@@ -5,3 +5,4 @@ default:
       contexts:
         - FeatureContext
         - RestContext
+        - UserContext
