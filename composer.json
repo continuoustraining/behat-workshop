@@ -9,6 +9,7 @@
         "framework",
         "zf2"
     ],
+    "minimum-stability": "dev",
     "homepage": "http://apigility.org/",
     "support": {
         "email": "apigility-users@zend.com",
@@ -44,7 +45,8 @@
         "zfcampus/zf-deploy": "~1.0",
         "hounddog/doctrine-data-fixture-module": "0.0.4",
         "behat/behat": "^3.3",
-        "guzzlehttp/guzzle": "^6.2"
+        "guzzlehttp/guzzle": "^6.2",
+        "phpunit/phpunit": "~5.0"
     },
     "suggest": {
         "zfcampus/zf-apigility-doctrine": "zfcampus/zf-apigility-doctrine ~1.0 to create Doctrine-Connected REST services",
